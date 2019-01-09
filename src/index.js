@@ -46,5 +46,6 @@ app.on('ready', () => {
     });
 
     // Asigando una URL inicial a la ventana
-    win.loadURL('http://devdocs.io/');
+    win.loadURL(`file://${__dirname}/index.html`); // dirname → Helper directorio actual
+    // win.loadURL('http://devdocs.io/'); // Url Remota
 })
