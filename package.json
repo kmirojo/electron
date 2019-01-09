@@ -1,0 +1,15 @@
+{
+  "name": "electron_app",
+  "version": "1.0.0",
+  "description": "Aplicación para\u001b[1;5D\u001b[1;5D\u001b[D\u001b[D\u001b[Dde\u001b[D\u001b[D \u001b[C\u001b[C\u001b[D\u001b[Dde electron para la visualización de imagenes.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electron index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Rojas <kmirojo@gmail.com> (https://github.com/kmirojo)",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^4.0.1"
+  }
+}
